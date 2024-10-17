@@ -1,9 +1,10 @@
 ---
-givenName: Stacy
-familyName: Fakename
-title: Official Job Title
-location: Austin, TX
-twitterUsername: stacy_fakename
+givenName: Zhijun
+familyName: Wang
+title: Full Stack Developer
+location: Hunan, China
+email: wangzhijun154@gmail.com
+twitterUsername: wangzhijun154
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra [justo nec ultrices](#). Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra.
+I am a self-motivated individual who enjoys developing several side projects. I am always willing to explore new fields such as Web3 and am keen on using good programming languages to enhance my skills and knowledge.

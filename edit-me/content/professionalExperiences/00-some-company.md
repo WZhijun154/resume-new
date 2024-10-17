@@ -1,14 +1,13 @@
 ---
-title: Official Job Title
-organization: Some Company
-startDate: August 2019
-previousTitles:
-  - title: A Previous Title
-    startDate: '2022'
-    endDate: '2023'
-  - title: Another Previous Title
-    startDate: '2019'
-    endDate: '2022'
+title: Planning and Control Algorithm Engineer
+organization: Horizon Robotics
+startDate: May 2023
+endDate: Sep 2024
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis `nisl rhoncus mattis` rhoncus urna neque viverra. Tristique senectus et netus et malesuada fames ac.
+Developed and optimized planning and control algorithms for autonomous driving.
+Utilized C++ for embedded systems and Python for algorithm development.
+
+- Deployed VectorNet and DenseTNT for trajectory prediction on Journey 5 and Journey 6 AI chips.
+- Developed a simulator for the Target Selection Module. This simulator uses real-world data from the CAN bus to simulate target selection logic, primarily for debugging and performance optimization.
+- Optimized Target Selection logic based on obstacle posture, enabling the ego vehicle to preemptively select a neighboring lane obstacle as the main target 1300ms before it attempts to cut into the ego lane.

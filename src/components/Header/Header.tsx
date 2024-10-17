@@ -21,6 +21,7 @@ export const Header: React.FC<HeaderProps> = ({ secret }) => {
           </div>
           <PDFDownloadButton secret={secret} />
         </div>
+        25 years old
       </div>
     </div>
   );

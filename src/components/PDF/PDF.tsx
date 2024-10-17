@@ -304,6 +304,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
           <View style={styles.header}>
             <Text style={styles.headerTitle}>{fullName}</Text>
             <Text style={styles.headerSubtitle}>{personal.title}</Text>
+            <Text style={styles.bold}>25 years old</Text>
           </View>
           <View style={styles.sidebarContent}>
             <View style={styles.section}>
@@ -322,6 +323,10 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
                 <Text style={styles.bold}>Location:</Text>
                 <Text>&nbsp;{personal.location}</Text>
               </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Email:</Text>
+                <Text>&nbsp;{personal.email}</Text>
+              </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
                   <Text style={styles.bold}>{privateField.label}:&nbsp;</Text>
@@ -337,13 +342,13 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               {allSkills.map((skill, skillIndex) => (
                 <View key={skill._id}>
                   <View style={styles.itemHeading}>
-                    <View style={styles.sectionHeadingStars}>
+                    {/* <View style={styles.sectionHeadingStars}>
                       {Array.from(Array(allSkills.length - skillIndex)).map(
                         (star, starIndex) => (
                           <Star key={starIndex} size={fontSizes.xxs} />
                         ),
                       )}
-                    </View>
+                    </View> */}
                     <Text style={styles.bold}>{skill.title}</Text>
                   </View>
                   <Html {...htmlProps}>{skill.body.html}</Html>
@@ -394,11 +399,11 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
             ))}
           </View>
           <View style={styles.section}>
-            <View style={styles.sectionHeading}>
+            {/* <View style={styles.sectionHeading}>
               <CirclePaintbrush size={fontSizes.m} />
               <Text>{additionalInfo.title}</Text>
-            </View>
-            <Html
+            </View> */}
+            {/* <Html
               {...htmlProps}
               stylesheet={{
                 ...htmlProps.stylesheet,
@@ -406,7 +411,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               }}
             >
               {additionalInfo.body.html}
-            </Html>
+            </Html> */}
           </View>
         </View>
       </Page>

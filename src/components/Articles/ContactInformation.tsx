@@ -22,6 +22,9 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
         <li>
           <strong>Location:</strong> {personal.location}
         </li>
+        <li>
+          <strong>Email:</strong> {personal.email}
+        </li>
 
         {/* private access required */}
         {privateInformation?.map((privateField) => (
