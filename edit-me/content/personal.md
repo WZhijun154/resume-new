@@ -1,10 +1,10 @@
 ---
-givenName: Zhijun
-familyName: Wang
-title: Full Stack Developer
-location: Hunan, China
+givenName: 王
+familyName: 志军
+title: 全栈开发者
+location: 中国湖南
 email: wangzhijun154@gmail.com
 twitterUsername: wangzhijun154
 ---
 
-I am a self-motivated individual who enjoys developing several side projects. I am always willing to explore new fields such as Web3 and am keen on using good programming languages to enhance my skills and knowledge.
+我是一个自我激励的人，开发了多个副业项目。我总是愿意探索新的领域，如 Web3，并热衷于使用优秀的编程语言来提升我的技能和知识。

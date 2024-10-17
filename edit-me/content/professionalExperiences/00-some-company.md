@@ -1,13 +1,13 @@
 ---
-title: Planning and Control Algorithm Engineer
-organization: Horizon Robotics
-startDate: May 2023
-endDate: Sep 2024
+title: 规划与控制算法工程师
+organization: 地平线机器人
+startDate: 2023年5月
+endDate: 2024年9月
 ---
 
-Developed and optimized planning and control algorithms for autonomous driving.
-Utilized C++ for embedded systems and Python for algorithm development.
+负责开发和优化自动驾驶的规划与控制算法。
+使用C++进行嵌入式系统开发，使用Python进行算法开发。
 
-- Deployed VectorNet and DenseTNT for trajectory prediction on Journey 5 and Journey 6 AI chips.
-- Developed a simulator for the Target Selection Module. This simulator uses real-world data from the CAN bus to simulate target selection logic, primarily for debugging and performance optimization.
-- Optimized Target Selection logic based on obstacle posture, enabling the ego vehicle to preemptively select a neighboring lane obstacle as the main target 1300ms before it attempts to cut into the ego lane.
+- 在Journey 5和Journey 6 AI芯片上部署了VectorNet和DenseTNT进行轨迹预测。
+- 开发了目标选择模块的模拟器。该模拟器使用来自CAN总线的真实数据来模拟目标选择逻辑，主要用于调试和性能优化。
+- 基于障碍物姿态优化目标选择逻辑，使自车能够在障碍物尝试切入自车道之前1300毫秒预先选择相邻车道的障碍物作为主要目标。

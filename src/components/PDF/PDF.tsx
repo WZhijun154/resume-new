@@ -304,7 +304,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
           <View style={styles.header}>
             <Text style={styles.headerTitle}>{fullName}</Text>
             <Text style={styles.headerSubtitle}>{personal.title}</Text>
-            <Text style={styles.bold}>25 years old</Text>
+            <Text style={styles.bold}>25 岁</Text>
           </View>
           <View style={styles.sidebarContent}>
             <View style={styles.section}>
