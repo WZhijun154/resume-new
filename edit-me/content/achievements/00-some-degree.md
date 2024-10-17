@@ -1,5 +1,5 @@
 ---
-achievement: Bachelor's degree in Electrical Engineering (2020)
-organization: Central South University (China)
+achievement: 电气工程学士学位
+organization: 中南大学 (中国)
 completionYear: 2020
 ---
