@@ -5,7 +5,7 @@ startDate: May 2023
 endDate: Sep 2024
 ---
 
-Developed and optimized planning and control algorithms for autonomous driving.
+Responsible for developing and optimizing planning and control algorithms for autonomous driving.
 Utilized C++ for embedded systems and Python for algorithm development.
 
 - Deployed VectorNet and DenseTNT for trajectory prediction on Journey 5 and Journey 6 AI chips.
